@@ -95,7 +95,7 @@ body {
 }
 
 .footer {
-  background-color: #000000;
+  background-color: #2f303a;
 }
 
 .logo.logo_footer > span {
@@ -121,7 +121,7 @@ body {
   letter-spacing: 0.02em;
 }
 .nav-item:hover a,
-.nav-item a:focus {
+.nav-item:focus a {
   color: #2196f3;
 }
 
@@ -131,4 +131,41 @@ body {
 
 .nav-item.nav-item_active a {
   color: #2196f3;
+}
+.adress-item a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.adress-item:hover a,
+.adress-item:focus a {
+  color: #2196f3;
+}
+
+/* ```````````````````` portfolio */
+.filtr-list-item > button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.filtr-list-item:hover button,
+.filtr-list-item:focus button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.examle-list-item h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.examle-list-item p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
