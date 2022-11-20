@@ -153,8 +153,8 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.filtr-list-item:hover button,
-.filtr-list-item:focus button {
+.filtr-list-item button:hover,
+.filtr-list-item button:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
