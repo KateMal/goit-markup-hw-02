@@ -2,7 +2,7 @@ body {
   font-family: "Roboto";
 
   font-size: 14px;
-  line-height: 1.71;
+
   letter-spacing: 0.03em;
 
   color: #212121;
@@ -60,7 +60,7 @@ body {
   list-style: none;
 }
 
-.adress-item a {
+.adress-item-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -91,7 +91,7 @@ body {
 }
 .hero-button {
   background-color: #2196f3;
-
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
@@ -160,12 +160,12 @@ body {
 .footer {
   background-color: #2f303a;
 }
-
-.logo.logo_footer > .logo-select {
+. .logo.logo_footer > .logo-select {
   color: #ffffff;
 }
 .contacts-adress {
   color: #ffffff;
+  font-style: normal;
 }
 .contacts {
   letter-spacing: 0.03em;
@@ -188,6 +188,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: #212121;
+  font-family: "Roboto";
 }
 .filtr-list-item-butt:hover,
 .filtr-list-item-butt:focus {
