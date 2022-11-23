@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -23,15 +22,56 @@ body {
   line-height: 31px;
 }
 
-.logo > span {
+.logo-select {
   color: #000000;
 }
 
-.nav-item > a {
-  text-decoration: none;
+/* ========================  nav*/
+
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.nav-item:hover .nav-item-link,
+.nav-item:focus .nav-item-link {
+  color: #2196f3;
 }
 
-.hero > h1 {
+.nav-item-link {
+  color: #212121;
+}
+
+.nav-item.nav-item_active .nav-item-link {
+  color: #2196f3;
+}
+.nav-item {
+  list-style: none;
+}
+
+.nav-item-link {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* ========================  adress*/
+
+.adress-item a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.adress-item:hover a,
+.adress-item:focus a {
+  color: #2196f3;
+}
+
+/* ========================  hero*/
+.hero-tittle {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -46,7 +86,7 @@ body {
 .hero {
   background-color: #2f303a;
 }
-.hero > button {
+.hero-button {
   background-color: #2196f3;
 
   font-size: 16px;
@@ -61,44 +101,64 @@ body {
 
   color: #ffffff;
 }
-.benefits h3 {
+
+/* ========================  benefits*/
+
+.benefits-list-item {
+  list-style: none;
+}
+.benefits-list-item-tittle {
   color: #212121;
 
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
 }
-.benefits p {
+.benefits-list-item-desc {
   color: #757575;
 }
-.doing > h2 {
+
+/* ========================  doing*/
+
+.doing-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
 }
-.team > h2 {
+.doing-list {
+  list-style: none;
+}
+
+/* ========================  team */
+
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
 }
-.team h3 {
+.team-list-item-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
-.team p {
+.team-list-item-prof {
   font-size: 16px;
   line-height: 19px;
   color: #757575;
 }
+.team-list-item {
+  list-style: none;
+}
+
+/* ====================== footer */
 
 .footer {
   background-color: #2f303a;
 }
 
-.logo.logo_footer > span {
+.logo.logo_footer > .logo-select {
   color: #ffffff;
 }
 .contacts-adress {
@@ -112,36 +172,6 @@ body {
 }
 .contacts:hover,
 .contacts:focus {
-  color: #2196f3;
-}
-.nav {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-.nav-item:hover a,
-.nav-item:focus a {
-  color: #2196f3;
-}
-
-.nav-item a {
-  color: #212121;
-}
-
-.nav-item.nav-item_active a {
-  color: #2196f3;
-}
-.adress-item a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-  text-decoration: none;
-}
-.adress-item:hover a,
-.adress-item:focus a {
   color: #2196f3;
 }
 
