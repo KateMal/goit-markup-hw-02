@@ -23,18 +23,18 @@
   </head>
   <body class="page">
     <header class="header">
-      <a class="logo" href="">Web<span>Studio</span> </a>
+      <a class="logo" href="">Web<span class="logo-select">Studio</span> </a>
 
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="./">Студія</a>
+            <a class="nav-item-link" href="./">Студія</a>
           </li>
           <li class="nav-item nav-item_active">
-            <a href="./portfolio.html">Портфоліо</a>
+            <a class="nav-item-link" href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="nav-item">
-            <a href="">Контакти</a>
+            <a class="nav-item-link" href="">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -49,11 +49,21 @@
     </header>
     <main>
       <ul class="filtr-list">
-        <li class="filtr-list-item"><button>Усі</button></li>
-        <li class="filtr-list-item"><button>Веб-сайти</button></li>
-        <li class="filtr-list-item"><button>Додатки</button></li>
-        <li class="filtr-list-item"><button>Дизайн</button></li>
-        <li class="filtr-list-item"><button>Маркетинг</button></li>
+        <li class="filtr-list-item">
+          <button class="filtr-list-item-butt">Усі</button>
+        </li>
+        <li class="filtr-list-item">
+          <button class="filtr-list-item-butt">Веб-сайти</button>
+        </li>
+        <li class="filtr-list-item">
+          <button class="filtr-list-item-butt">Додатки</button>
+        </li>
+        <li class="filtr-list-item">
+          <button class="filtr-list-item-butt">Дизайн</button>
+        </li>
+        <li class="filtr-list-item">
+          <button class="filtr-list-item-butt">Маркетинг</button>
+        </li>
       </ul>
       <ul class="example-list">
         <li class="examle-list-item">
@@ -64,8 +74,8 @@
             height="294"
           />
 
-          <h2>Технокряк</h2>
-          <p>Веб-сайт</p>
+          <h2 class="examle-list-item-title">Технокряк</h2>
+          <p class="examle-list-item-title-text">Веб-сайт</p>
         </li>
         <li class="examle-list-item">
           <img
@@ -74,8 +84,10 @@
             width="370"
             height="294"
           />
-          <h2>Постер New Orlean vs Golden Star</h2>
-          <p>Дизайн</p>
+          <h2 class="examle-list-item-title">
+            Постер New Orlean vs Golden Star
+          </h2>
+          <p class="examle-list-item-title-text">Дизайн</p>
         </li>
         <li class="examle-list-item">
           <img
@@ -84,8 +96,8 @@
             width="370"
             height="294"
           />
-          <h2>Ресторан Seafood</h2>
-          <p>Додаток</p>
+          <h2 class="examle-list-item-title">Ресторан Seafood</h2>
+          <p class="examle-list-item-title-text">Додаток</p>
         </li>
         <li class="examle-list-item">
           <img
@@ -94,8 +106,8 @@
             width="370"
             height="294"
           />
-          <h2>Проєкт Prime</h2>
-          <p>Маркетинг</p>
+          <h2 class="examle-list-item-title">Проєкт Prime</h2>
+          <p class="examle-list-item-title-text">Маркетинг</p>
         </li>
         <li class="examle-list-item">
           <img
@@ -104,8 +116,8 @@
             width="370"
             height="294"
           />
-          <h2>Проєкт Boxes</h2>
-          <p>Додаток</p>
+          <h2 class="examle-list-item-title">Проєкт Boxes</h2>
+          <p class="examle-list-item-title-text">Додаток</p>
         </li>
         <li class="examle-list-item">
           <img
@@ -114,8 +126,8 @@
             width="370"
             height="294"
           />
-          <h2>Inspiration has no Borders</h2>
-          <p>Веб-сайт</p>
+          <h2 class="examle-list-item-title">Inspiration has no Borders</h2>
+          <p class="examle-list-item-title-text">Веб-сайт</p>
         </li>
         <li class="examle-list-item">
           <img
@@ -124,8 +136,8 @@
             width="370"
             height="294"
           />
-          <h2>Видання Limited Edition</h2>
-          <p>Дизайн</p>
+          <h2 class="examle-list-item-title">Видання Limited Edition</h2>
+          <p class="examle-list-item-title-text">Дизайн</p>
         </li>
         <li class="examle-list-item">
           <img
@@ -134,8 +146,8 @@
             width="370"
             height="294"
           />
-          <h2>Проєкт LAB</h2>
-          <p>Маркетинг</p>
+          <h2 class="examle-list-item-title">Проєкт LAB</h2>
+          <p class="examle-list-item-title-text">Маркетинг</p>
         </li>
         <li class="examle-list-item">
           <img
@@ -145,13 +157,15 @@
             height="294"
           />
 
-          <h2>Growing Business</h2>
-          <p>Додаток</p>
+          <h2 class="examle-list-item-title">Growing Business</h2>
+          <p class="examle-list-item-title-text">Додаток</p>
         </li>
       </ul>
     </main>
     <footer class="footer">
-      <a class="logo logo_footer" href=""> Web<span>Studio</span> </a>
+      <a class="logo logo_footer" href="">
+        Web<span class="logo-select">Studio</span>
+      </a>
       <address class="contacts-adress">
         м. Київ, пр-т Лесі Українки, 26ф
       </address>

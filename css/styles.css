@@ -19,7 +19,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 
 .logo-select {
@@ -31,7 +31,7 @@ body {
 .nav {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav-item:hover .nav-item-link,
@@ -56,11 +56,14 @@ body {
 }
 
 /* ========================  adress*/
+.adress {
+  list-style: none;
+}
 
 .adress-item a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
@@ -74,7 +77,7 @@ body {
 .hero-tittle {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -111,7 +114,7 @@ body {
   color: #212121;
 
   font-weight: 700;
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .benefits-list-item-desc {
@@ -123,7 +126,7 @@ body {
 .doing-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
 }
 .doing-list {
@@ -135,17 +138,17 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
 }
 .team-list-item-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 }
 .team-list-item-prof {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   color: #757575;
 }
 .team-list-item {
@@ -176,26 +179,32 @@ body {
 }
 
 /* ```````````````````` portfolio */
-.filtr-list-item > button {
+.filtr-list-item {
+  list-style: none;
+}
+.filtr-list-item-butt {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.filtr-list-item button:hover,
-.filtr-list-item button:focus {
+.filtr-list-item-butt:hover,
+.filtr-list-item-butt:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
-.examle-list-item h2 {
+.examle-list-item {
+  list-style: none;
+}
+.examle-list-item-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
-.examle-list-item p {
+.examle-list-item-title-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   color: #757575;
 }
