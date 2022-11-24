@@ -1,25 +1,17 @@
 body {
   font-family: "Roboto";
-
   font-size: 14px;
-
-  letter-spacing: 0.03em;
-
   color: #212121;
   background-color: #ffffff;
 }
 
-/* .footer {
-  color: #ffffff;
-  background-color: #2f303a;
-} */
 .logo {
   color: #2196f3;
   text-decoration: none;
   font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-select {
@@ -78,9 +70,9 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
 
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 
   color: #ffffff;
@@ -101,7 +93,6 @@ body {
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
   color: #ffffff;
 }
 
@@ -112,9 +103,9 @@ body {
 }
 .benefits-list-item-tittle {
   color: #212121;
-
-  font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .benefits-list-item-desc {
@@ -124,9 +115,9 @@ body {
 /* ========================  doing*/
 
 .doing-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .doing-list {
@@ -136,19 +127,21 @@ body {
 /* ========================  team */
 
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .team-list-item-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .team-list-item-prof {
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 .team-list-item {
@@ -160,7 +153,7 @@ body {
 .footer {
   background-color: #2f303a;
 }
-. .logo.logo_footer > .logo-select {
+.logo.logo_footer > .logo-select {
   color: #ffffff;
 }
 .contacts-adress {
@@ -169,7 +162,8 @@ body {
 }
 .contacts {
   letter-spacing: 0.03em;
-
+  font-size: 14px;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -183,12 +177,12 @@ body {
   list-style: none;
 }
 .filtr-list-item-butt {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: #212121;
-  font-family: "Roboto";
 }
 .filtr-list-item-butt:hover,
 .filtr-list-item-butt:focus {
@@ -199,7 +193,6 @@ body {
   list-style: none;
 }
 .examle-list-item-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -207,5 +200,6 @@ body {
 .examle-list-item-title-text {
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
   color: #757575;
 }
